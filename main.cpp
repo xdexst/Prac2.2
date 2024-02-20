@@ -22,3 +22,14 @@ void setLength(int newlength) {
         cout << "Width: " << width << endl;
     }
 };
+
+int main() {
+    Road road1;
+    road1.print();
+
+    road1.setLength(100);
+    road1.setWidth(50);
+    road1.print();
+
+    return 0;
+}
